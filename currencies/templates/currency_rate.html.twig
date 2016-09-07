@@ -1,0 +1,22 @@
+{#
+/**
+ * @file currency_rate.html.twig
+ * Default theme implementation to present Currency rate data.
+ *
+ * This template is used when viewing Currency rate pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_currency_rate()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('currency_rate') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

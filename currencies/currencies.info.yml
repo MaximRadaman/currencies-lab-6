@@ -1,0 +1,8 @@
+name: Currencies module
+description: Provide page and block with currencies.
+type: module
+core: 8.x
+version: 1.0
+package: Custom Modules
+dependencies:
+  - block

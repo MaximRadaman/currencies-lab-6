@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Currency module hooks.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function currencies_theme() {
+  return [
+    'currency_autocomplete' => [
+      'variables' => [
+        'currency' => NULL,
+        'attributes' => [],
+        'link_options' => [],
+      ],
+    ],
+  ];
+}

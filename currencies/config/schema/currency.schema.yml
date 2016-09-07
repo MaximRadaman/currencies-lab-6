@@ -1,0 +1,18 @@
+currencies.currency.*:
+  type: config_entity
+  label: 'Currency config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    name:
+      type: label
+      label: 'Label'
+    code:
+      type: string
+      label: 'Code'
+    display:
+      type: string
+      label: 'Display'
+    uuid:
+      type: string

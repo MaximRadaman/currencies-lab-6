@@ -1,0 +1,26 @@
+# Currency rate routing definition
+currency_rate.settings_tab:
+  route_name: currency_rate.settings
+  title: 'Settings'
+  base_route: currency_rate.settings
+# Currency rate routing definition
+currency_rate.settings_tab:
+  route_name: currency_rate.settings
+  title: 'Settings'
+  base_route: currency_rate.settings
+entity.currency_rate.canonical:
+  route_name: entity.currency_rate.canonical
+  base_route: entity.currency_rate.canonical
+  title: 'View'
+
+entity.currency_rate.edit_form:
+  route_name: entity.currency_rate.edit_form
+  base_route: entity.currency_rate.canonical
+  title: Edit
+
+entity.currency_rate.delete_form:
+  route_name:  entity.currency_rate.delete_form
+  base_route:  entity.currency_rate.canonical
+  title: Delete
+  weight: 10
+

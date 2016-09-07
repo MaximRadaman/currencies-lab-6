@@ -1,0 +1,20 @@
+# Currency menu items definition
+entity.currency.collection:
+  title: 'Currency'
+  route_name: entity.currency.collection
+  description: 'List Currency (bundles)'
+  parent: system.admin_structure
+  weight: 99
+# Currency rate menu items definition
+entity.currency_rate.collection:
+  title: 'Currency rate list'
+  route_name: entity.currency_rate.collection
+  description: 'List Currency rate entities'
+  parent: system.admin_structure
+  weight: 100
+
+currency_rate.admin.structure.settings:
+  title: Currency rate settings
+  description: 'Configure Currency rate entities'
+  route_name: currency_rate.settings
+  parent: system.admin_structure

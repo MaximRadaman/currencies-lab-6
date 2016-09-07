@@ -1,0 +1,23 @@
+currencies.currencies_page:
+  path: 'currencies'
+  defaults:
+    _controller: '\Drupal\currencies\Controller\CurrenciesController::getAllCurrencies'
+    _title: 'All currencies'
+  requirements:
+    _permission: 'access content'
+
+currencies.bnrb.currencies_codes:
+  path: 'autocomplete/bnrb/currencies-codes'
+  defaults:
+    _controller: '\Drupal\currencies\Controller\CurrenciesController::bnrbCurrenciesCodes'
+    _title: 'Bnrb Currencies Codes'
+  requirements:
+    _permission: 'access content'
+
+currencies.bnrb.currencies_names:
+  path: 'autocomplete/bnrb/currencies-names'
+  defaults:
+    _controller: '\Drupal\currencies\Controller\CurrenciesController::bnrbCurrenciesNames'
+    _title: 'Bnrb Currencies Names'
+  requirements:
+    _permission: 'access content'

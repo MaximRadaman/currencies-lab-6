@@ -1,0 +1,20 @@
+
+add currency rate entities:
+  title: 'Create new Currency rate entities'
+
+administer currency rate entities:
+  title: 'Administer Currency rate entities'
+  description: 'Allow to access the administration form to configure Currency rate entities.'
+  restrict access: true
+
+delete currency rate entities:
+  title: 'Delete Currency rate entities'
+
+edit currency rate entities:
+  title: 'Edit Currency rate entities'
+
+view published currency rate entities:
+  title: 'View published Currency rate entities'
+
+view unpublished currency rate entities:
+  title: 'View unpublished Currency rate entities'

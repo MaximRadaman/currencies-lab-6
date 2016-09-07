@@ -1,0 +1,5 @@
+services:
+  currencies.nbrb:
+    class: 'Drupal\currencies\BnrbCurrenciesService'
+  currencies.currency_rate_repository:
+    class: 'Drupal\currencies\CurrencyRateRepository'
